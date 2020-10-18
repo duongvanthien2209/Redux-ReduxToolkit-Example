@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addTodo } from "../../redux/todo";
+import { addTodo } from "../todoSlice";
 
 const TodoApp = (props) => {
   const todos = useSelector((state) => state.todos.items);
